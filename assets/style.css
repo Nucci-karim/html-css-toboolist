@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+/* tutto dell'header */
+header {
+    padding: 10px;
+    background-color: white;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.titolo-header {
+    display: inline-block;
+    font-size: 40px;
+}
+
+/* main */
