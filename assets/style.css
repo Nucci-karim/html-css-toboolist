@@ -78,6 +78,45 @@ nav {
 
 /* Lista */
 ul li {
-    list-style-type: '\22C1';
+    list-style: none;
     margin: 5px 0;
 }
+
+li:before {
+    content: "\25bc";
+}
+
+.editorial {
+    background-color: rgb(29, 153, 241);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.Q1-goals {
+    background-color: #8800e3;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.recruiting {
+    background-color: #00ad5f;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.check {
+    border: 1px solid green;
+    color: green;
+    border-radius: 100%;
+}
+
+.null {
+    border: 1px solid red;
+    color: red;
+    border-radius: 100%;
+}
+
